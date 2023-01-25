@@ -77,8 +77,13 @@ public class Calculator {
     // - if we try to divide by zero - return -100;
     public double divideByZero(int numerator, int denominator) {
         if (denominator == 0) {
-            return 5000;
+
+            return "-100";
         } else return (numerator / denominator);
+    }
+    
+    public int newMetod(int Sum) {
+        return Sum;
     }
 
 }
