@@ -5,6 +5,7 @@ public class Main {
     {
         Calculator calc = new Calculator();
         System.out.println(calc.getAverageValue3Numbers(4, 2, 6), "first commit");
+        System.out.println("New method");
 
 
     }
